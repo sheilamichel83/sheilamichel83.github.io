@@ -6,7 +6,7 @@
 
       <link href="css/bootstrap.css" rel="stylesheet">
       <link href="css/font-awesome.css" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet">
+       <link href="css/style.css" rel="stylesheet">
       <style>
       body{
         background-image: url("images/lovely_kittens.jpg");
@@ -20,6 +20,12 @@
         text-align: center;
         font-size: 200px;
       }
+
+      .email-form{
+        width: 400px;
+        margin: 0 auto;
+      }
+
       .navbar-default {
         background-color: rgba(0,0,0,0);
         border-color: rgba(0,0,0,0);
@@ -36,6 +42,11 @@
       .navbar {
         border-radius: 4px;
       }
+
+      label{
+        margin-bottom: 15px;
+      }
+
       </style>
 
   </head>
@@ -79,37 +90,32 @@
       <h1>For Donations Contact</h1>
     </div>
 
-    <form class="email-form" method="POST"
-    action="https://formspree.io/sheilamichel83@gmail.com">
+      <form class="email-form" method="POST"
+      action="https://formspree.io/sheilamichel83@gmail.com">
 
-      <div class="form-group">
-        <label>Return Email</label>
-        <input type="email" class="form-control" name="_replyto"
-          placeholder="example@gmail.com"/>
-      </div>
+        <div class="form-group">
+          <label>Return Email</label>
+          <input type="email" class="form-control" name="_replyto"
+            placeholder="example@gmail.com"/>
+        </div>
 
-      <div class="form-group">
-        <label>Subject</label>
-        <input type="text" class="form-control" name="_subject"
-        placeholder="I Need A Website">
-      </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" class="form-control" name="_subject"
+          placeholder="I Need A Website">
+        </div>
 
-      <div class="form-group">
+        <div class="form-group">
+          <label>Message</label>
+          <textarea class="form-control" name="message" rows="6"></textarea>
+        </div>
 
-        <label>Message</label>
-        <textarea class="form-control" name="message" rows="6"></textarea>
+        <button type="submit"class="btn btn-primary btn-block">Send</button>
 
-      </div>
-
-      <button type="submit"class="btn btn-primary btn-block">Send</button>
-      <div class="social">
-
-    </form>
-
-  </div>
-</div>
-
+      </form>
     </div>
+
+
   </body>
 
   <script src="js/jquery-3.1.1.min.js"></script>
