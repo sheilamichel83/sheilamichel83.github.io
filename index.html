@@ -2,30 +2,158 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My Website</title>
+      <title>Find and Adopt a Pet Today | AllPaws</title>
     <link href="css/bootstrap.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Shrikhand"
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+      img {
+        border-radius: 50%;
+      }
 
+      .social {
+        border: 3px solid black;
+
+      }
+
+      #mediaIcons {
+        padding-left: 70px;
+      }
+
+      .socialIcons {
+        padding-left: 260px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+      }
+        /*navbar border*/
+        .navbar{
+          border: 0px;
+          background-image: url("../images/Basset3.jpg");
+          background-size: cover;
+          max-width:100%;
+          height: 475px;
+        }
+
+    </style>
   </head>
-
     <body>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">AliKat's Beauty</a>
+
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">YourPet</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+
+              <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i> Search</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">About<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">Contact</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+              <form class="navbar-form navbar-left">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+
+          <h1 class="container">200,276 Pets to Choose From!</h1>
+      </nav>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2 class="para"> Adoption across the world waiting for you.
+          Finding Dogs, Cats & Other Pets to Adopt Has Never Been Easier</h2>
+
+        <h3>YourPet lists more than 200,000 loveable pets in need of a forever
+          home. To adopt a pet, start by searching by pet type, breed, & location,
+          and then expand your search by distance, size, gender and more in order
+          to find the right match for pet rescue and pet adoption.</h3>
+
+        <h4>More Adoptable Pets Added Every Day.</h4>
+
+        <h5>The fastest & easiest way to find your next dog, cat,alpaca-
+          with approximately 5,000 new adoptable animals being added each day.
+          So if you're ready to adopt a pet or are all set to adopt a dog, Adopt.com
+          is the place for you! Even if you don’t find a match today, make sure to
+          check back tomorrow…your new best friend might be waiting!</h5>
+      </div>
+
+      <div class="col-lg-4">
+
+        <div class="img">
+          <a target="_blank" href="PlayingTogether.jpg">
+            <img src="images/PlayingTogether.jpg" alt="Fjords" width = "400" height="300">
+          </a>
+        </div>
+
+        <div class="img">
+          <a target="_blank" href="cats.jpg">
+            <img src="images/cats.jpg" alt="Fjords" width = "400" height="300">
+          </a>
+        </div>
+      </div>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </div>
-</nav>
 
-    <div class="container">
-      <h1>Beauty and Makeup</h1>
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+
+      <div class="social">
+        <div class="socialIcons">
+
+
+        <a href='https://www.facebook.com/946450728702922' target='_blank'>
+          <i class='fa fa-facebook fa-2x'  id="mediaIcons"></i>
+        </a>
+
+        <a href='https://twitter.com/AdoptaPetcom' target='_blank'>
+          <i class='fa fa-twitter fa-2x' id="mediaIcons"></i>
+        </a>
+
+        <a href='https://plus.google.com/collection/ctsoFB' target='_blank'>
+          <i class='fa fa-google-plus fa-2x' id="mediaIcons"></i>
+        </a>
+
+        <a href='http://www.pinterest.com/search/pins/?q=adopt%20a%20pet&rs=rs&etslf=12846&eq=&term_meta[]=adopt%20a%20pet%7Crecentsearch%7C1' target='_blank'>
+          <i class='fa fa-pinterest fa-2x' id="mediaIcons"></i>
+        </a>
+
+        <a href='http://www.youtube.com/watch?v=Xpnvug7Uwg8' target='_blank'>
+          <i class='fa fa-youtube fa-2x' id="mediaIcons"></i>
+        </a>
+
+</div>
     </div>
+    </body>
 
-
-  </body>
-</html>
+  </html>
