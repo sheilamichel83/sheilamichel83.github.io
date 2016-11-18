@@ -117,7 +117,8 @@ p {
 
 .page-header h1{
   padding-top: 50px;
-  color: black;
+  color: white;
+  font-size: 50px;
 }
 
 /*navbar color*/
